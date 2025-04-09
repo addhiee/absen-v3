@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Absen Pengurus OSIM</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <!-- Logo dan Judul -->
+    <div class="logo-container">
+      <img src="kemenag.png" alt="Logo Kemenag" class="logo">
+      <img src="man1.png" alt="Logo MAN 1" class="logo">
+      <img src="osim.png" alt="Logo OSIM" class="logo">
+    </div>
+
+    <h2>Form Absen Kehadiran Pengurus OSIM (S)</h2>
+
+    <!-- Form hanya dengan UID -->
+    <form id="absenForm">
+      <div class="form-group">
+        <label for="uid">UID:</label>
+        <input type="text" id="uid" placeholder="Masukkan UID" name="uid" maxlength="10" pattern="\d*" required>
+      </div>
+    </form>
+
+    <!-- Alert custom -->
+     <div id="overlay"></div>
+    <div class="alert" id="customAlert"></div>
+
+    <div class="footer-row">
+      <div class="footer-group">
+        <div class="footer-item">
+          <img src="instagram.png" class="footer-img" alt="ig MAN">
+          <p>@man1batam</p>
+        </div>
+        <div class="footer-item">
+          <img src="youtube.png" class="footer-img" alt="Logo 2">
+          <p>MAN 1 Kota Batam</p>
+        </div>
+        <div class="footer-item">
+          <img src="website.png" class="footer-img" alt="Logo 3">
+          <p>manbatam.sch.id</p>
+        </div>
+      </div>
+      <div class="footer-group">
+        <div class="footer-item">
+          <img src="instagram.png" class="footer-img" alt="Logo 4">
+          <p>@osimman1batam</p>
+        </div>
+        <div class="footer-item">
+          <img src="tiktok.png" class="footer-img" alt="Logo 5">
+          <p>@osimman1batam</p>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
